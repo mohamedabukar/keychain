@@ -7,6 +7,9 @@ public class Door {
 		this.key = key;
 		isLocked = key != null;
 	}
+	public Door() {
+		
+	}
 	public Key key() {
 		return key;
 	}
